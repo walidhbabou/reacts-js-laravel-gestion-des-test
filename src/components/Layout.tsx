@@ -78,7 +78,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="px-6 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
             <div className="text-sm text-gray-600">
-              © 2024 Université/École - Tous droits réservés
+              © 2025 walid hbabou - Tous droits réservés
             </div>
             <div className="flex items-center space-x-6 text-sm text-gray-600">
               <a href="#" className="hover:text-blue-600 transition-colors">
@@ -99,6 +99,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </footer>
     </div>
   );
-};
+};  
 
 export default Layout;

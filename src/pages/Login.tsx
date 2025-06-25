@@ -40,11 +40,7 @@ const LoginPage = () => {
 
       if (response.ok && data.token) {
         localStorage.setItem('auth_token', data.token);
-        setSuccess('Connexion réussie ! Redirection...');
-        setTimeout(() => {
-          // Redirection vers votre page principale
-          navigate('/');
-        }, 1500);
+        navigate('/'); // Redirection immédiate
       } else {
         setError(data.message || 'Identifiants incorrects');
       }
